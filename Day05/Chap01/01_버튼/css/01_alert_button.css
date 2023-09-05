@@ -1,0 +1,35 @@
+*{box-sizing: border-box;}
+
+.btn{
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn.lg{ display: block; width: 100%; margin: 10px 0;}
+
+.success{background-color: skyblue;}
+.success:hover{background-color: deepskyblue;}
+.success:active{background-color: royalblue;}
+
+
+.info{background-color: pink;}
+.info:hover{background-color: plum;}
+.info:active{background-color: palevioletred;}
+
+.warning{background-color: salmon;}
+.warning:hover{background-color: red;}
+.warning:active{background-color: rgb(146, 3, 3);}
+
+.danger{background-color: mediumaquamarine;}
+.danger:hover{background-color: green;}
+.danger:active{background-color: darkgreen;}
+
+.default{background-color: wheat;}
+.default:hover{background-color: gainsboro;}
+.default:active{background-color: gray;}
+
